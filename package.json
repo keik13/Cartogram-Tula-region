@@ -1,0 +1,18 @@
+{
+  "name": "tula-cartogram-d3js",
+  "version": "1.0.0",
+  "description": "example of tula region cartogram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "http-server -a 0.0.0.0 -p 8001"
+  },
+  "author": "andrey koba",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.8.5",
+    "bower": "^1.7.7"
+  },
+  "devDependencies": {}
+}

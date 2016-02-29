@@ -1,7 +1,7 @@
 //загружаем данные для карты и по задолженностям по МО
 queue()
-  .defer(d3.csv, "../csv/DebtOnMo.csv")
-  .defer(d3.json, "../simplified/tulatopos1.json")
+  .defer(d3.csv, "resources/csv/DebtOnMo.csv")
+  .defer(d3.json, "resources/simplified/tulatopos1.json")
   .await(readyDebtMo);
 
 function readyDebtMo(error, debtMoRawData, map) {
@@ -34,8 +34,8 @@ function debtDetailCsv(moName) {
   var moCode = byMo[moName];
   if (moCode) {
     queue()
-      .defer(d3.csv, "../csv/DebtDetail" + moCode + ".csv")
-      .defer(d3.json, "../csv/DebtDetail" + moCode + ".json")
+      .defer(d3.csv, "resources/csv/DebtDetail" + moCode + ".csv")
+      .defer(d3.json, "resources/csv/DebtDetail" + moCode + ".json")
       .await(readyDebtDetail);
     return true;
   }

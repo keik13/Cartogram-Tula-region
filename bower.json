@@ -1,0 +1,21 @@
+{
+  "name": "Cartogram-Tula-region",
+  "homepage": "https://github.com/keik13/Cartogram-Tula-region",
+  "authors": [
+    "Andrey <andrey2koba@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "^3.5.16"
+  }
+}

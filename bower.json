@@ -17,6 +17,11 @@
   ],
   "dependencies": {
     "d3": "^3.5.16",
-    "topojson": "^1.6.24"
+    "topojson": "^1.6.24",
+    "d3-queue": "queue-async#^2.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "chai": "^3.5.0"
   }
 }
